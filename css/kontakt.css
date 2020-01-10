@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+  
+  }
+  .h {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+  body{
+    background: #313D52;
+    color: white;
+  }
+  nav{
+    width: 1000px;
+    margin: 10px auto;
+    font-size: 20px;
+    background: white;
+  }
+  .navegacion ul {
+    list-style: none;
+  }
+  .menu >li{
+    position: relative;
+    display: inline-block;
+  }
+  .menu >li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .menu li a:hover {
+    color: #Ce7D35;
+    transition: all .3s;
+  
+  }
+  /* submenu */
+  
+  .submenu{
+    position: absolute;
+    width: 120%;
+    background: #333333;
+    display: none;
+  }
+  .submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+  
+  }
+  .menu li:hover .submenu{
+    display: block;
+  }
+  
+  /* body */
+body {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+form{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+form, 
+.form-header,
+.btn-submit {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+ 
+
+   /* footer */
+
+   
+   footer h2{
+    background-color:#313D52;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    font-style: italic;
+    clear: both;
+  }
+  
